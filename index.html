@@ -29,17 +29,30 @@
             text-align: center;
             /* Centers inline elements */
             width: 100%;
-            margin-top: 10px;
+            margin-top: 0px;
             /* Adjust spacing if needed */
         }
 
         .college-logo {
             width: 100%;
+            background-color: white;
             /* Makes the image cover full width */
             max-height: 200px;
             /* Adjust max height as needed */
             object-fit: contain;
             /* Ensures the image maintains aspect ratio */
+        }
+
+        .bg {
+            width: 100%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+
+        body{
+            background-color: antiquewhite;
+            margin: 0px;
         }
     </style>
 
@@ -52,6 +65,7 @@
     <div class="college-logo-container">
         <img class="college-logo" src="./images/logo-gcoej.jpg" alt="College Logo">
     </div>
+    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Carvaan 2k25</a>
@@ -82,41 +96,47 @@
         </div>
     </nav>
 
-
+    
+        <img class="bg" src="./images/bg.jpeg" alt="GCOEJ">
+    
     <!-- Cards -->
 
-    <div class="row">
-        <div class="col-10 col-md-6">
-            <div class="card w-100">
-                <img src="./images/kalasangam.png" class="card-img-top" alt="..." height="450px" width="400px">
-                <div class="card-body">
-                    <h5 class="card-title">Carvaan 2k25</h5>
-                    <p class="card-text">🌀 "Immerse Yourself in the Rhythm of Culture!"
-                        ✨ Experience a spectacle of art, dance, music, and drama as talents from across the nation unite
-                        in a celebration of tradition and creativity. Be part of the grandest cultural extravaganza of
-                        the year at Government College of Engineering, Jalgaon! 📅 Join us at Kalasangam & Make History
-                        with Every Performance!</p>
-                    <a href="./Carvaan_2K25/index.html" class="btn btn-primary">Register</a>
-                </div>
-            </div>
-        </div>
+    <!-- Full-width image above the cards -->
 
-        <div class="col-10 col-md-6">
-            <div class="card w-100">
-                <img src="./images/techCarvaan.png" class="card-img-top" alt="..." height="450px" width="400px">
-                <div class="card-body">
-                    <h5 class="card-title">Tech-Carvaan 2k25</h5>
-                    <p class="card-text">⚡ "Innovate, Compete, Dominate!"
-                        🔬 Step into the future of technology with cutting-edge competitions, robotics, AI challenges,
-                        and mind-bending hackathons. Push your limits, showcase your skills, and be the tech pioneer of
-                        tomorrow at Government College of Engineering, Jalgaon!
-
-                        🚀 Gear Up for Tech-Carvaan 2k25 – Where Innovation Meets Excellence!</p>
-                    <a href="./Tech_Carvaan_2K25/index.html" class="btn btn-primary">Register</a>
-                </div>
+<!-- Cards Section -->
+<div class="row justify-content-center">
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+        <div class="card w-100">
+            <img src="./images/kalasangam.png" class="card-img-top" alt="..." height="450px">
+            <div class="card-body">
+                <h5 class="card-title">Carvaan 2k25</h5>
+                <p class="card-text">🌀 "Immerse Yourself in the Rhythm of Culture!"
+                    ✨ Experience a spectacle of art, dance, music, and drama as talents from across the nation unite
+                    in a celebration of tradition and creativity. Be part of the grandest cultural extravaganza of
+                    the year at Government College of Engineering, Jalgaon! 📅 Join us at Kalasangam & Make History
+                    with Every Performance!</p>
+                <a href="./Carvaan_2K25/index.html" class="btn btn-primary">Register</a>
             </div>
         </div>
     </div>
+
+    <div class="col-md-6 col-12 d-flex justify-content-center">
+        <div class="card w-100">
+            <img src="./images/techCarvaan.png" class="card-img-top" alt="..." height="450px">
+            <div class="card-body">
+                <h5 class="card-title">Tech-Carvaan 2k25</h5>
+                <p class="card-text">⚡ "Innovate, Compete, Dominate!"
+                    🔬 Step into the future of technology with cutting-edge competitions, robotics, AI challenges,
+                    and mind-bending hackathons. Push your limits, showcase your skills, and be the tech pioneer of
+                    tomorrow at Government College of Engineering, Jalgaon!
+
+                    🚀 Gear Up for Tech-Carvaan 2k25 – Where Innovation Meets Excellence!</p>
+                <a href="./Tech_Carvaan_2K25/index.html" class="btn btn-primary">Register</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
     <!-- ------------------------------------------------------------------------------------------------------------------------------------------- -->
