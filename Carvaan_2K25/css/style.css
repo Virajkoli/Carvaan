@@ -3,6 +3,7 @@ body {
     color: #404142;
     font-size: 16px;
 	letter-spacing: 0.8px;
+    background-color:  antiquewhite;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 200;
@@ -57,10 +58,13 @@ a:hover, a:focus, a:active, a:visited {
 ------------------ */
 
 nav{
-    padding: 40px 60px;
+    /* padding: 40px 60px; */
     display: flex;
     justify-content: space-between;
-    background-color: #89c8ff;
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
 }
 
 nav img{
@@ -72,6 +76,9 @@ nav img{
     display: flex;
     font-size: 30px;
     gap: 10px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
 }
 
 .part1 i{
@@ -101,9 +108,13 @@ nav button{
 }
 
 
+.container{
+    background-color: white;
+}
+
 /* Hero */
 .hero-header {
-	background: #89c9ff;
+	background: antiquewhite;
 	min-height: 600px;
 	padding: 5em;
 	color: #000000;
