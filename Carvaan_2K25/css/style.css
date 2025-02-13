@@ -70,7 +70,7 @@ a:hover, a:focus, a:active, a:visited {
 	Navigation 
 ------------------ */
 
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,8 +90,8 @@ nav img{
     gap: 10px;
     /* display: flex; */
     /* flex-wrap: wrap; */
-    justify-content: space-between;
-}
+    /* justify-content: space-between; */
+/* } */
 
 .part1 i{
     rotate: 45deg;
@@ -117,7 +117,7 @@ nav img{
     font-size: 15px;
     border-radius: 20px;
     border: 2px solid black;
-} */
+} */ */
 
 .part2 button {
     background: #f04e30;
@@ -372,7 +372,7 @@ ul.footer-menu li a:hover {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .menu-icon {
         display: block;
         z-index: 1000;
@@ -402,9 +402,9 @@ ul.footer-menu li a:hover {
 
     body.menu-open {
         overflow: hidden; /* Prevent scrolling */
-    }
+    /* } */
 
-    overlay {
+    /* overlay {
         position: fixed;
         top: 0;
         left: 0;
@@ -418,5 +418,4 @@ ul.footer-menu li a:hover {
     
     .overlay.active {
         display: block;
-    }
-}
+    } */

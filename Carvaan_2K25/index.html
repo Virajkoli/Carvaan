@@ -20,11 +20,44 @@
   <link href="css/themify-icons.css" rel="stylesheet">
   <link href='css/dosis-font.css' rel='stylesheet' type='text/css'>
 
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
   <style>
     body, html {
     width: 100%;
     overflow-x: hidden;
 }
+
+.college-logo-container {
+            text-align: center;
+            /* Centers inline elements */
+            width: 100%;
+            margin-top: 0px;
+            /* Adjust spacing if needed */
+        }
+
+        .college-logo {
+            width: 100%;
+            background-color: white;
+            /* Makes the image cover full width */
+            max-height: 200px;
+            /* Adjust max height as needed */
+            object-fit: contain;
+            /* Ensures the image maintains aspect ratio */
+        }
+
+        .bg {
+            width: 100%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
 
   </style>
 
@@ -32,21 +65,43 @@
 
 <body id="page-top" data-spy="scroll" data-target=".side-menu">
 
-  <nav>
-    <div class="part1">
-        <img src="../images/gcoejlogo.png" alt="logo">
-    </div>
-    <div class="menu-icon" id="menu-icon">
-        <i class="ri-menu-line"></i>
-    </div>
-    <div class="part2" id="nav-links">
-        <a href="../index.html"><h4>About us</h4></a>
-        <a href="#events"><h4>Events</h4></a>
-        <h4>Sponsors</h4>
-        <h4>Contact Us</h4>
-        <button>Register</button>
+  <div class="college-logo-container">
+    <img class="college-logo" src="../images/logo-gcoej.jpg" alt="College Logo">
+</div>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Carvaan 2k25</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sponsors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Register</a>
+                </li>
+
+            </ul>
+        </div>
     </div>
 </nav>
+
+
+    <img class="bg" src="../images/bg.jpeg" alt="GCOEJ">
+
 
   <div class="container-fluid">
     <!-- Start: Header -->
